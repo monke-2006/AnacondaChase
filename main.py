@@ -10,25 +10,25 @@ class ANACONDA:
         self.new_block = False
 
 
-        self.head_up = pygame.image.load('head_up.png').convert_alpha()
-        self.head_down = pygame.image.load('head_down.png').convert_alpha()
-        self.head_right = pygame.image.load('head_right.png').convert_alpha()
-        self.head_left = pygame.image.load('head_left.png').convert_alpha()
+        self.head_up = pygame.image.load('imgs/head_up.png').convert_alpha()
+        self.head_down = pygame.image.load('imgs/head_down.png').convert_alpha()
+        self.head_right = pygame.image.load('imgs/head_right.png').convert_alpha()
+        self.head_left = pygame.image.load('imgs/head_left.png').convert_alpha()
 
-        self.tail_up = pygame.image.load('tail_up.png').convert_alpha()
-        self.tail_down = pygame.image.load('tail_down.png').convert_alpha()
-        self.tail_right = pygame.image.load('tail_right.png').convert_alpha()
-        self.tail_left = pygame.image.load('tail_up.png').convert_alpha()
-
-
-        self.body_horizontal = pygame.image.load('body_horizontal.png').convert_alpha()
-        self.body_vertical = pygame.image.load('body_vertical.png').convert_alpha()
+        self.tail_up = pygame.image.load('imgs/tail_up.png').convert_alpha()
+        self.tail_down = pygame.image.load('imgs/tail_down.png').convert_alpha()
+        self.tail_right = pygame.image.load('imgs/tail_right.png').convert_alpha()
+        self.tail_left = pygame.image.load('imgs/tail_up.png').convert_alpha()
 
 
-        self.body_tr = pygame.image.load('body_tr.png').convert_alpha()
-        self.body_tl = pygame.image.load('body_tl.png').convert_alpha()
-        self.body_br = pygame.image.load('body_br.png').convert_alpha()
-        self.body_bl = pygame.image.load('body_bl.png').convert_alpha()
+        self.body_horizontal = pygame.image.load('imgs/body_horizontal.png').convert_alpha()
+        self.body_vertical = pygame.image.load('imgs/body_vertical.png').convert_alpha()
+
+
+        self.body_tr = pygame.image.load('imgs/body_tr.png').convert_alpha()
+        self.body_tl = pygame.image.load('imgs/body_tl.png').convert_alpha()
+        self.body_br = pygame.image.load('imgs/body_br.png').convert_alpha()
+        self.body_bl = pygame.image.load('Imgs/body_bl.png').convert_alpha()
 
 
 
@@ -197,7 +197,7 @@ cell_size = 25
 cell_number = 25
 screen = pygame.display.set_mode((cell_number * cell_size,cell_number * cell_number))
 clock = pygame.time.Clock()
-Rat = pygame.image.load('Rat.png').convert_alpha()
+Rat = pygame.image.load('imgs/Rat.png').convert_alpha()
 game_font = pygame.font.Font('vanguardian.ttf',20)
 
 
